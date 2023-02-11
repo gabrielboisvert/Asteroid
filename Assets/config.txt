@@ -1,0 +1,128 @@
+
+# cette ligne sera ignoree car c'est un commentaire : elle commence par un '#'
+
+[player]
+player_life = 30
+player_speed = 0.3 # en pixels par seconde
+player_firing_rate = 0.5 # en tirs par seconde
+player_firing_damage = 10 # Les degats occasionnes par un tir de bullet
+player_hit_damage = 6 # En HP par seconde : des que le joueur collisionne avec un asteroide, il perd une petite partie des HP
+player_fire_sfx = assets/sfx/player_shoot.ogg
+player_shield_up_sfx = assets/sfx/player_shield_up.ogg
+player_shield_down_sfx = assets/sfx/player_shield_down.ogg
+player_shield_hit_sfx = assets/sfx/player_shield_hit.ogg
+player_hit_sfx = assets/sfx/player_hit.ogg
+player_dead_sfx = assets/sfx/player_explosion.ogg
+player_switch_sfx = assets/sfx/player_switch.ogg
+player_tex = assets/textures/playerShip2_blue.png
+player_shield = assets/textures/Effects/shield3.png
+player_shield_duration = 10 # en secondes
+player_shield_cooldown = 10 # en secondes
+player_bullet = assets/textures/Lasers/laserRed01.png
+
+player_ship = assets/textures/playerShip1_red.png
+fuel_animation_delay = 0.25
+player_score_sec = 100 # points par seconde
+powerup_hit_sfx = assets/sfx/powerup.ogg
+
+[Fuel_animation]
+fire1 = assets/textures/Effects/fire03.png
+fire2 = assets/textures/Effects/fire06.png
+fire3 = assets/textures/Effects/fire07.png
+
+[controls]
+UP = 73 # fleche haut
+DOWN = 74 # fleche bas
+LEFT = 71 # fleche gauche
+RIGHT = 72 # fleche droite
+FIRE = 57 # bar espace
+SHIELD = 38 # shift droite
+FIRE_MODE = 37 # ctr droite
+
+[asteroids]
+asteroid = assets/textures/Meteors/meteorBrown_big1.png
+asteroid_life = 10 # Les HP d'un petit asteroide
+asteroid_minScore = 10
+asteroid_scale = 2 # Coef de multiplication de la life d'un asteroide en fonction de sa taille. Par exemple, un asteroide moyen aura 2 x <asteroid_life>, et un grand, 4 x <asteroid_life>.
+asteroid_maxSelfRotate = 0.3;
+asteroid_minSpeed = 0.07;
+asteroid_maxSpeed = 0.1;
+asteroid_circle_radius = 164 # Le rayon en pixels du cercle de collision d'un gros asteroide. vous scalerez cette valeur en fonction de la taille de l'asteroide !
+asteroid_broken_sfx = assets/sfx/asteroid_broken.ogg
+asteroid_touched_sfx = assets/sfx/asteroid_touched.ogg
+spawnMin = 2
+spawnMax = 4
+
+[powerups]
+powerup_hp = assets/textures/Power-ups/pill_red.png
+powerup_shield = assets/textures/Power-ups/shield_silver.png
+powerup_points = assets/textures/Power-ups/things_gold.png
+
+[powerups_val]
+chance_of_spawn = 6
+speed = 0.2
+
+[soundEffects]
+jingle_new_game_sfx = assets/sfx/jingle_new_game.ogg
+jingle_game_over_sfx = assets/sfx/jingle_game_over.ogg
+jingle_new_hi_score_sfx = assets/sfx/jingle_new_hi_score.ogg
+jingle_multiplier_reset_sfx = assets/sfx/multiplier_reset.ogg
+
+[music]
+bande1 = assets/music/EVA_Realizations.ogg
+bande2 = assets/music/EVA_RearView.ogg
+bande3 = assets/music/EVA_Shitsuboshita.ogg
+bande4 = assets/music/EVA_ZetaReticuli.ogg
+bande5 = assets/music/NightRaptor_Crash-land.ogg
+
+[UI_Button]
+buttonBlue = assets/textures/UI/buttonBlue.png
+buttonGreen = assets/textures/UI/buttonGreen.png
+buttonRed = assets/textures/UI/buttonRed.png
+buttonYellow = assets/textures/UI/buttonYellow.png
+highScore = assets/textures/UI/highScore.png
+bar = assets/textures/UI/bar.png
+
+[Fonts]
+font1 = assets/fonts/kenvector_future.ttf
+font2 = assets/fonts/kenvector_future_thin.ttf
+font3 = assets/fonts/space-wham.ttf
+
+[Backgrounds]
+background_image = assets/textures/background/space_background.jpg
+
+[background_parallax_objects]
+planet1 = assets/textures/background/asteroids.png
+planet2 = assets/textures/background/mercure.png
+planet3 = assets/textures/background/venus.png
+planet4 = assets/textures/background/earth.png
+planet5 = assets/textures/background/mars.png
+planet6 = assets/textures/background/jupiter.png
+planet7 = assets/textures/background/saturne.png
+planet8 = assets/textures/background/neptune.png
+planet9 = assets/textures/background/moon.png
+planet10 = assets/textures/background/sun1.png
+planet11 = assets/textures/background/sun2.png
+planet12 = assets/textures/background/kepler.png
+planet13 = assets/textures/background/kepler_ii.png
+planet14 = assets/textures/background/hyperion.png
+planet15 = assets/textures/background/tallon_iv.png
+planet16 = assets/textures/background/supernova.png
+planet17 = assets/textures/background/titan.png
+planet18 = assets/textures/background/barbapapa.png
+
+[parallax_veryfar_params]
+scale = 0.2
+speed = 0.55
+
+[parallax_far_params]
+scale = 0.35 # scale
+speed = 0.60 # speed
+
+[parallax_near_params]
+scale = 0.50
+speed = 0.65
+
+[parallax_spawn_timers]
+min = 8 # minimum
+max = 15 # maximum

@@ -1,0 +1,41 @@
+﻿  pch.cpp
+  App.cpp
+  Bullet.cpp
+  EnterNameController.cpp
+  GameEntity.cpp
+  HealPowerUP.cpp
+  HighScoreManager.cpp
+  HUDController.cpp
+  HUDManager.cpp
+  HUDWindow.cpp
+  HUDButton.cpp
+  IGameManager.cpp
+  IniParser.cpp
+  InputScanner.cpp
+  KeyBoardEvent.cpp
+  main.cpp
+  MappingController.cpp
+  Meteor.cpp
+  MeteorConfig.cpp
+  MeteorManager.cpp
+  MouseClickEvent.cpp
+  Generating Code...
+  Compiling...
+  MultiPowerUP.cpp
+  GameManager.cpp
+  PhysiqueManager.cpp
+  Player.cpp
+  PowerUP.cpp
+  PowerUPManager.cpp
+  QuadTree.cpp
+  Renderer.cpp
+  ScrollingManager.cpp
+  ShieldPowerUP.cpp
+  SoundController.cpp
+  SoundManager.cpp
+  Sprite.cpp
+  Text.cpp
+  Timer.cpp
+  Window.cpp
+  Generating Code...
+  SFMLTest.vcxproj -> C:\Users\Sudo\Documents\ecole\1iere\GarbageCollectorBienBati\x64\Debug\SFMLTest.exe
